@@ -13,7 +13,7 @@ app.use(function(req, res, next) {
 });
 
 app.use('/api', routes);
-const server = app.listen(3006, function () {
+const server = app.listen(process.env.PORT || 3000, function () {
   const host = server.address().address;
   const port = server.address().port;
   console.log('XML parser and SVG, JSON generator app listening at http://%s:%s', host, port);
