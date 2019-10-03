@@ -4,9 +4,9 @@ Generating SVG With React
 https://react-node-svg-generator.herokuapp.com/api/svg?header=React%20Node&title=Dynamic&subHeader=SVG
 
 Here try changing query params:
-## header
-## title
-## subHeader
+`header`
+`title`
+`subHeader`
 
 You'll be able to see dyamic content rendering in SVG.
 
